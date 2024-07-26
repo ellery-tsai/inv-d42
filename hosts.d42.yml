@@ -3,8 +3,8 @@ url: https://demo.device42.com
 username: "{{ d42_username }}"
 password: "{{ d42_password }}"
 ssl_check: "{{ d42_validate_cert }}"
-debug: False
-clean_device_name: True
+debug: false
+clean_device_name: true
 keyed_groups:
     - key: d42_service_level
       prefix: ''
