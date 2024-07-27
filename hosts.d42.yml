@@ -3,7 +3,8 @@ plugin: device42.d42.d42
 url: https://demo.device42.com
 username: "{{ d42_username }}"
 password: "{{ d42_password }}"
-ssl_check: "{{ d42_validate_cert }}"
+#ssl_check: "{{ d42_validate_cert }}"
+ssl_check: false
 debug: false
 clean_device_name: true
 keyed_groups:
